@@ -1,0 +1,910 @@
+/* ==========================================================
+   Global Variables (assumed defined in :root)
+   e.g., --fb9333, --br-31xl, --color-darkslategray, etc.
+   ========================================================== */
+
+
+/* ================================
+   Feature Section
+   ================================ */
+   .feature {
+    position: relative;
+    line-height: 22px;
+    font-weight: 600;
+    color: var(--fb9333);  /* Accent color */
+  }
+  
+  
+  /* ================================
+     Menu Styles
+     ================================ */
+  .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 150%;
+  }
+  
+  
+  /* ================================
+     Contact Info Icons & Text
+     ================================ */
+  /* Small icons/text for address, email, phone */
+  .address,
+  .email,
+  .phone,
+  .phone1 {
+    position: relative;
+    height: 24px;
+  }
+  .address { width: 45px; }
+  .email   { width: 53px; }
+  .phone   { width: 66px; }
+  .phone1  { width: 71px; }
+  
+  /* Expanded text fields for address and email */
+  .address1 {
+    display: flex;
+  flex-direction: row; /* Change from column to row */
+  align-items: center; /* Vertically center items */
+  justify-content: flex-start; /* Align items to the left */
+  gap: 11px;
+  }
+  .email1 {
+    display: flex;
+  flex-direction: row; /* Change from column to row */
+  align-items: center; /* Vertically center items */
+  justify-content: flex-start; /* Align items to the left */
+  gap: 11px; 
+  }
+  
+  /* Instagram icon and its parent container */
+  .instagram-2-1 {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .the-freshleaf {
+    position: absolute;
+    top: 0;
+    left: 38px;
+    line-height: 150%;
+  }
+  .instagram-2-1-parent {
+    position: relative;
+    width: 146px;
+    height: 25px;
+  }
+  
+  /* Expanded phone text */
+  .phone2 {
+    display: flex;
+    flex-direction: row; /* Change from column to row */
+    align-items: center; /* Vertically center items */
+    justify-content: flex-start; /* Align items to the left */
+    gap: 10px;
+  }
+  
+  
+  /* ================================
+     Section Layouts
+     ================================ */
+  /* Vertical layout with gap */
+  .section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+  }
+  
+  /* Another section with gap */
+  .section-02 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 23px;
+  }
+  
+  /* Section 03: Icon sizing */
+  .section-03-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24.5px;
+    height: 24px;
+  }
+  .section-03 {
+    position: relative;
+    width: 24.5px;
+    height: 24px;
+  }
+  
+  
+  /* ================================
+     Footer Styles
+     ================================ */
+  .footer {
+    position: absolute;
+    width: 53.91%;
+    top: 3382px;
+    right: -2.7%;
+    left: 48.79%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: var(--padding-31xl) var(--padding-116xl) var(--padding-31xl) 0;
+    box-sizing: border-box;
+    gap: var(--gap-0);
+  }
+  
+  /* Responsive adjustments for Footer */
+  @media (max-width: 1280px) and (min-width: 900px) {
+    .footer {
+      width: 45.78%;
+      top: 3356px;
+      right: 12.5%;
+      left: 41.72%;
+      justify-content: flex-start;
+      gap: 130px;
+    }
+  }
+  
+  
+  /* ================================
+     Fresh Leaf & Healthy Tasty Sections
+     ================================ */
+  .fresh-leaf {
+    position: relative;
+  }
+  .healthy-tasty {
+    margin: 0;
+  }
+  .healthy-tasty-container {
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 160%;
+    font-family: var(--font-poppins);
+    color: var(--color);
+  }
+  .fresh-leaf-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 19px;
+  }
+  .copyright-fresh-leaf {
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 150%;
+    font-family: var(--font-poppins);
+    color: var(--b2b2b);
+  }
+  
+  
+  /* ================================
+     Section 01: Main Title Section
+     ================================ */
+  .section-01 {
+    position: absolute;
+    top: 3442px;
+    left: calc(50% - 539.79px);
+    width: 298px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 67px;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-roboto);
+  }
+  
+  /* Responsive adjustments for Section 01 */
+  @media (max-width: 1280px) and (min-width: 900px) {
+    .section-01 {
+      top: 3416px;
+      left: 51.21px;
+    }
+  }
+  
+  
+  /* ================================
+     Frame Child (Background Element)
+     ================================ */
+  .frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1170px;
+    height: 550px;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-darkslategray);
+  }
+  
+  
+  /* ================================
+     Subscribe Section
+     ================================ */
+  .subscribe-inner {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 552px;
+  }
+  .our-subscribe {
+    position: relative;
+    width: 450px;
+    letter-spacing: -0.02em;
+    line-height: 180%;
+    font-weight: 500;
+    display: inline-block;
+  }
+  .subscribe-to-get-container {
+    position: relative;
+    font-size: var(--font-size-29xl);
+    letter-spacing: -0.02em;
+    line-height: 140%;
+    font-weight: 600;
+  }
+  .our-subscribe-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .we-recommended-you-container {
+    position: relative;
+    width: 462px;
+    font-size: var(--font-size-base);
+    letter-spacing: -0.02em;
+    line-height: 160%;
+    font-weight: 500;
+    display: inline-block;
+    opacity: 0.7;
+  }
+  .frame-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+  .enter-your-email {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 140%;
+    opacity: 0.7;
+  }
+  .enter-your-email-address-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs);
+  }
+  .subscribe2 {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 140%;
+    font-weight: 500;
+  }
+  .subscribe-wrapper {
+    width: 170px;
+    height: 64px;
+    border-radius: var(--br-81xl);
+    background-color: var(--color-darkslategray);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs) 16px;
+    box-sizing: border-box;
+    color: var(--ffffff);
+  }
+  
+  
+  /* Frame Container for Subscription Form */
+  .frame-container {
+    width: 700px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-3xs) 8px var(--padding-3xs) 31px;
+    box-sizing: border-box;
+    gap: var(--gap-0);
+    font-size: var(--font-size-lg);
+    color: var(--color);
+    box-shadow: 0px 8px 20px -30px rgba(151, 109, 0, 0.08);
+    border-radius: var(--br-81xl);
+    background-color: var(--ffffff);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  /* Responsive adjustments for Frame Container */
+  @media (max-width: 1280px) and (min-width: 900px) {
+    .frame-container {
+      width: 100.78%;
+      max-width: 1645.24px;
+      max-height: 660px;
+      font-size: var(--font-size-lg);
+      text-align: center;
+    }
+  }
+  
+  
+  /* Frame Parent: Container for framing elements */
+  .frame-parent {
+    position: absolute;
+    top: 48px;
+    left: 235px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 80px;
+  }
+  
+  
+  /* Subscribe Section Container */
+  .subscribe1 {
+    position: relative;
+    width: 1170px;
+    height: 552px;
+  }
+  
+  
+  /* Main Subscribe Block */
+  .subscribe {
+    position: absolute;
+    top: 2697px;
+    left: calc(50% - 720px);
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 100px var(--padding-116xl);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-lightyellow);
+  }
+  
+  /* Subscribe - Responsive */
+  @media (max-width: 1280px) and (min-width: 900px) {
+    .subscribe {
+      top: 2697px;
+      left: calc(50% - 720px);
+      padding: 100px var(--padding-116xl);
+    }
+  }
+  
+  
+  /* ================================
+     Plans Section
+     ================================ */
+  /* Image for Plans */
+  .plans-child {
+    position: absolute;
+    bottom: 42px;
+    width: 80vw;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 596px;
+    object-fit: contain;
+    margin: 0 !important;
+    border-radius: var(--br-31xl);
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 0;
+  }
+  
+  /* Text overlay for subscription plans */
+  .subscription-plans {
+    position: absolute;
+    top: 0;
+    left: 17.31%;
+    width: 65.46%;
+    letter-spacing: -0.02em;
+    line-height: 140%;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0 !important;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+    z-index: 1;
+  }
+  
+  /* Container for Plans */
+  .plans {
+    position: absolute;
+    top: 2075px;
+    left: calc(50% - 616px);
+    width: 1233px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-0);
+    text-align: center;
+    font-size: 60px;
+    color: var(--color-darkslategray);
+  }
+  
+  /* Responsive adjustments for Plans */
+  @media (max-width: 1280px) and (min-width: 900px) {
+    .plans {
+      width: 96.33%;
+      top: 2075px;
+      right: 1.8%;
+      left: 1.88%;
+      height: 680px;
+      font-size: 60px;
+    }
+  }
+  
+  
+  /* ================================
+     Front View Image/Icon
+     ================================ */
+  .front-view-vegetable-salad-fro-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--br-31xl);
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    object-fit: contain;
+  }
+  
+  
+  /* ================================
+     Product Info (Green Salad, Rupee, etc.)
+     ================================ */
+  .green-salad {
+    position: relative;
+    align-self: stretch;
+    line-height: 130%;
+    font-weight: 500;
+  }
+  .rupee-icon {
+    position: relative;
+    width: 40.7px;
+    height: 40.7px;
+    object-fit: cover;
+  }
+  .b {
+    position: relative;
+    line-height: 130%;
+    white-space: pre-wrap;
+    margin-left: -30px;
+  }
+  
+  /* Container for rupee icon and text */
+  .rupee-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+  }
+  
+  /* Green Salad Container (positioned over product image) */
+  .green-salad-parent {
+    position: absolute;
+    top: 76.11%;
+    left: 10.83%;
+    right: 10.82%;
+    bottom: 7.78%;
+    width: 78.36%;
+    height: 16.12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+  }
+  
+  
+  /* ================================
+     Menu Section
+     ================================ */
+  /* Menu 1: Full container */
+  .menu-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* Menu 1 Wrapper: Positions the menu text/icon */
+  .menu-1-wrapper {
+    position: absolute;
+    top: 0;
+    right: 67.07%;
+    bottom: 0;
+    left: 4.96%;
+    width: 27.98%;
+    height: 100%;
+    margin: 0 !important;
+    z-index: 0;
+    font-size: 30px;
+  }
+  
+  /* Air Fried Peanut text */
+  .air-fried-peanut {
+    position: relative;
+    align-self: stretch;
+    line-height: 130%;
+    font-weight: 600;
+  }
+  
+  /* Container for rupee grouping */
+  .rupee-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+  }
+  
+  /* Air Fried Peanut Chaart Menu Item */
+  .air-fried-peanut-chaat-parent {
+    position: absolute;
+    top: 76.16%;
+    left: 10.93%;
+    right: 11.21%;
+    bottom: 7.75%;
+    width: 77.86%;
+    height: 16.09%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+  }
+  
+  /* Menu 2 Wrapper: Centered in container */
+  .menu-2-wrapper {
+    position: absolute;
+    top: 0.19%;
+    right: 36.01%;
+    bottom: 0;
+    left: 36.01%;
+    width: 27.98%;
+    height: 99.81%;
+    margin: 0 !important;
+    z-index: 1;
+  }
+  
+  /* Sprouts Bowl Menu Item */
+  .sprouts-bowl-parent {
+    position: absolute;
+    top: 76.15%;
+    left: 19.12%;
+    right: 20.34%;
+    bottom: 7.7%;
+    width: 60.54%;
+    height: 16.15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+  }
+  
+  /* Menu 3 Wrapper: Positioned on the far right */
+  .menu-3-wrapper {
+    position: absolute;
+    top: 0.19%;
+    right: 4.8%;
+    bottom: 0;
+    left: 67.22%;
+    width: 27.98%;
+    height: 99.81%;
+    margin: 0 !important;
+    z-index: 2;
+  }
+  
+  
+  /* ================================
+     Frame Div: Layout container for a group of items
+     ================================ */
+  .frame-div {
+    position: absolute;
+    top: 1486px;
+    left: calc(50% - 645px);
+    width: 1290px;
+    height: 517.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1645.24px;
+    max-height: 660px;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+  }
+  
+  /* Responsive adjustments for Frame Div */
+  @media (max-width: 1280px) and (min-width: 900px) {
+    .frame-div {
+      width: 100.78%;
+      top: 1486px;
+      right: -0.39%;
+      left: -0.39%;
+      height: 517.5px;
+    }
+  }
+  
+  
+  /* ================================
+     Discounts, Availability, and Social Media
+     ================================ */
+  .discounts {
+    color: var(--color-darkslategray);
+  }
+  .available-on {
+    color: var(--color-dimgray-100);
+  }
+  .discounts-available-on {
+    font-weight: 600;
+  }
+  .zomato-swiggy {
+    font-family: var(--font-poppins);
+    color: #ffbe00;
+  }
+  
+  
+  /* ================================
+     Enjoy the Best Container (Main Headline)
+     ================================ */
+  .enjoy-the-best-container {
+    position: absolute;
+    top: 1298px;
+    left: calc(50% - 574px);
+    width: 1128px;
+    height: 115.4px;
+    font-size: var(--font-size-29xl);
+    letter-spacing: -0.02em;
+    line-height: 140%;
+    text-align: center;
+    display: inline-block;
+    color: var(--color-dimgray-100);
+  }
+  
+  /* Responsive adjustments for Enjoy the Best Container */
+  @media (max-width: 1280px) and (min-width: 900px) {
+    .enjoy-the-best-container {
+      width: 88.13%;
+      top: 1298px;
+      left: 5.16%;
+      height: 115.4px;
+    }
+  }
+  
+  
+  /* ================================
+     Why Choose Us Section
+     ================================ */
+  .why-choose-us-for-container {
+    position: absolute;
+    top: 19px;
+    left: 0;
+    width: 50.09%;
+    margin: 0 !important;
+    letter-spacing: -0.02em;
+    line-height: 140%;
+    font-weight: 600;
+    display: inline-block;
+    z-index: 0;
+  }
+  .we-continue-to {
+    position: absolute;
+    top: 0;
+    left: 61.54%;
+    width: 38.46%;
+    margin: 0 !important;
+    font-size: var(--font-size-5xl);
+    letter-spacing: -0.02em;
+    line-height: 180%;
+    font-weight: 500;
+    color: #636363;
+    display: inline-block;
+    z-index: 1;
+  }
+  .why-choose-us-for-your-healthy-parent {
+    position: absolute;
+    top: 894px;
+    left: calc(50% - 574px);
+    width: 1128px;
+    height: 172px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 134px;
+    font-size: var(--font-size-29xl);
+    color: var(--color-dimgray-100);
+  }
+  
+  /* Responsive adjustments for Why Choose Us Section */
+  @media (max-width: 1280px) and (min-width: 900px) {
+    .why-choose-us-for-your-healthy-parent {
+      width: 88.13%;
+      top: 894px;
+      right: 6.72%;
+      left: 5.16%;
+      height: 172px;
+    }
+  }
+  
+  
+  /* ================================
+     Skip the Diet & Imagine Sections
+     ================================ */
+  .skip-the-diet-container {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 130%;
+  }
+  .imagine-you-dont-container {
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: -0.02em;
+    line-height: 160%;
+    font-weight: 500;
+    color: #5a5a5a;
+  }
+  
+  
+  /* ================================
+     Lady Section (Image & Text)
+     ================================ */
+  .lady-side {
+    position: absolute;
+    top: 254px;
+    left: calc(50% - 571px);
+    width: 590px;
+    height: calc(100% - 3308px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    font-size: 72px;
+  }
+  /* Responsive adjustments for Lady Side */
+  @media (max-width: 1280px) and (min-width: 900px) {
+    .lady-side {
+      width: 46.09%;
+      top: 254px;
+      right: 48.52%;
+      left: 5.39%;
+      font-size: 64px;
+    }
+  }
+  
+  /* Lady Icon (Image) */
+  .lady-icon {
+    position: absolute;
+    top: 100px;
+    left: calc(50% + 62px);
+    width: 582.7px;
+    height: 581px;
+    object-fit: contain;
+  }
+  /* Responsive adjustments for Lady Icon */
+  @media (max-width: 1280px) and (min-width: 900px) {
+    .lady-icon {
+      width: 45.52%;
+      top: 100px;
+      right: -0.37%;
+      left: 54.84%;
+      max-width: 100%;
+      overflow: hidden;
+      height: 581px;
+      object-fit: contain;
+    }
+  }
+  
+  
+  /* ================================
+     Logo & Menu Header
+     ================================ */
+  .logo-icon {
+    position: absolute;
+    top: 21px;
+    left: calc(50% - 597px);
+    width: 269px;
+    height: 94px;
+    object-fit: cover;
+  }
+  /* Responsive adjustments for Logo Icon */
+  @media (max-width: 1280px) and (min-width: 900px) {
+    .logo-icon {
+      top: 21px;
+      left: 43px;
+    }
+  }
+  
+  .home {
+    position: relative;
+    line-height: 130%;
+    color: var(--color-darkslategray);
+  }
+  .menu1 {
+    position: relative;
+    line-height: 130%;
+    font-weight: 500;
+  }
+  
+  /* Menu Header */
+  .menu-header {
+    position: absolute;
+    top: 47px;
+    left: calc(50% + 150px);
+    width: 422px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    gap: 56px;
+  }
+  /* Responsive adjustments for Menu Header */
+  @media (max-width: 1280px) and (min-width: 900px) {
+    .menu-header {
+      top: 47px;
+      left: 485px;
+    }
+  }
+  
+  
+  /* ================================
+     Main Page Container
+     ================================ */
+  .main-div {
+    width: 100%;
+    position: relative;
+    background-color: var(--ffffff);
+    height: 3757px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color);
+    font-family: var(--font-poppins);
+  }
+  /* Responsive adjustments for Main Div */
+  @media (max-width: 1280px) and (min-width: 900px) {
+    .main-div {
+      height: 3684px;
+    }
+  }
+  

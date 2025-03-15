@@ -1,0 +1,141 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+@media  (min-width: 900px){
+:root {
+    
+    /* Fonts */
+    --font-poppins: Poppins;
+    --font-roboto: Roboto;
+    
+    /* font sizes */
+    --font-size-base: 16px;
+    --font-size-lg: 18px;
+    --font-size-xl: 20px;
+    --font-size-5xl: 24px;
+    --font-size-21xl: 40px;
+    --font-size-29xl: 48px;
+    
+    /* Colors */
+    --color-black: #000;
+    --color-darkslategray: #38664c;
+    --color-dimgray-100: #585858;
+    --color-lightyellow: #edffe1;
+    
+    /* Gaps */
+    --gap-0: 0px;
+    --gap-7xs: 6px;
+    
+    /* Paddings */
+    --padding-3xs: 10px;
+    --padding-31xl: 50px;
+    --padding-116xl: 135px;
+    
+    /* Border radiuses */
+    --br-31xl: 50px;
+    --br-81xl: 100px;
+    
+    /* Figma Variables */
+    
+    /* Color Variables */
+    --b2b2b: #2b2b2b;
+    --color: #575757;
+    --fb9333: #fb9333;
+    --ffffff: #fff;
+    
+}
+}
+
+@media (max-width: 900px) and (min-width: 700px) {
+    
+:root {
+    
+    /* Fonts */
+    --font-poppins: Poppins;
+    --font-roboto: Roboto;
+    
+    /* font sizes */
+    --font-size-base: 16px;
+    --font-size-lg: 18px;
+    --font-size-xl: 20px;
+    --font-size-5xl: 24px;
+    --font-size-13xl: 32px;
+    --font-size-29xl: 48px;
+    
+    /* Colors */
+    --color-black: #000;
+    --color-darkslategray: #38664c;
+    --color-dimgray-100: #585858;
+    --color-lightyellow: #edffe1;
+    
+    /* Gaps */
+    --gap-0: 0px;
+    --gap-7xs: 6px;
+    
+    /* Paddings */
+    --padding-3xs: 10px;
+    --padding-31xl: 50px;
+    --padding-116xl: 135px;
+    
+    /* Border radiuses */
+    --br-31xl: 50px;
+    --br-81xl: 100px;
+    
+    /* Figma Variables */
+    
+    /* Color Variables */
+    --b2b2b: #2b2b2b;
+    --color: #575757;
+    --fb9333: #fb9333;
+    --ffffff: #fff;
+    
+}
+}
+
+
+@media (max-width: 700px) {
+    
+:root {
+    
+    /* Fonts */
+    --font-poppins: Poppins;
+    --font-roboto: Roboto;
+    
+    /* font sizes */
+    --font-size-mini: 15px;
+    --font-size-base: 16px;
+    --font-size-xl: 20px;
+    --font-size-5xl: 24px;
+    --font-size-13xl: 32px;
+    
+    /* Colors */
+    --color-black: #000;
+    --color-darkslategray: #38664c;
+    --color-dimgray-100: #585858;
+    --color-lightyellow: #edffe1;
+    
+    /* Gaps */
+    --gap-0: 0px;
+    --gap-7xs: 6px;
+    
+    /* Paddings */
+    --padding-3xs: 10px;
+    
+    /* Border radiuses */
+    --br-31xl: 50px;
+    --br-81xl: 100px;
+    
+    /* Figma Variables */
+    
+    /* Color Variables */
+    --b2b2b: #2b2b2b;
+    --color: #575757;
+    --fb9333: #fb9333;
+    --ffffff: #fff;
+    
+}
+}

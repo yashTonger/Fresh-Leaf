@@ -1,0 +1,186 @@
+	<div class="footer">
+      			<div class="section-4">
+        				<div class="feature">Feature</div>
+        				<div class="address">
+          					<div class="menu">Menu</div>
+        				</div>
+        				<div class="email">
+          					<div class="menu">Promo</div>
+        				</div>
+        				<div class="phone">
+          					<div class="menu">Contact</div>
+        				</div>
+        				<div class="phone1">
+          					<div class="menu">About us</div>
+        				</div>
+      			</div>
+      			<div class="section-02">
+        				<div class="feature">Get in Touch</div>
+        				<div class="address1">
+          					<div class="gaur-city-">Gaur City - 2 , GN-West</div>
+          					<img class="communication-location-on" alt="" src="Communication/location_on.png">
+          					
+        				</div>
+        				<div class="email1">
+          					<div class="gaur-city-">viplavsachan321@gmail.com</div>
+          					<img class="communication-location-on" alt="" src="Communication/email.png">
+          					
+        				</div>
+        				<div class="instagram-2-1-parent">
+          					<img class="instagram-2-1" alt="" src="instagram (2) 1.svg">
+          					
+          					<div class="the-freshleaf">the_freshleaf</div>
+        				</div>
+        				<div class="phone2">
+          					<div class="gaur-city-">+917291950416</div>
+          					<img class="communication-location-on" alt="" src="Communication/call.png">
+          					
+        				</div>
+      			</div>
+      			<div class="section-03">
+        				<div class="section-03-child">
+        				</div>
+      			</div>
+    		</div>
+    		<div class="section-01">
+      			<div class="fresh-leaf-parent">
+        				<div class="fresh-leaf">Fresh Leaf</div>
+        				<div class="healthy-tasty-container">
+          					<p class="healthy-tasty">🥗 Healthy & Tasty Bowl Subscriptions</p>
+          					<p class="healthy-tasty">📍 Gaur City - Delhi NCR</p>
+        				</div>
+      			</div>
+      			<div class="copyright-fresh-leaf">©Copyright fresh Leaf</div>
+    		</div>
+    		<div class="subscribe">
+      			<div class="subscribe1">
+        				<div class="subscribe-inner">
+          					<div class="frame-child">
+          					</div>
+        				</div>
+        				<div class="frame-parent">
+          					<div class="frame-group">
+            						<div class="enter-your-email-address-wrapper">
+              							<div class="enter-your-email">Enter your email address</div>
+            						</div>
+            						<div class="subscribe-wrapper">
+              							<div class="subscribe2">Subscribe</div>
+            						</div>
+          					</div>
+          					<div class="we-recommended-you-to-subscrib-parent">
+            						<div class="we-recommended-you-container">
+              							<p class="healthy-tasty">We recommended you to subscribe to our promo program, </p>
+              							<p class="healthy-tasty">drop your email below to get daily update about us</p>
+            						</div>
+            						<div class="our-subscribe-parent">
+              							<div class="our-subscribe">Our Subscribe</div>
+              							<div class="subscribe-to-get-container">
+                								<p class="healthy-tasty">Subscribe To Get The Latest </p>
+                								<p class="healthy-tasty">Promo from Fresh Leaf</p>
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+    		</div>
+    		<div class="plans">
+      			<img class="plans-child" alt="" src="Rectangle 4603.png">
+      			
+      			<div class="subscription-plans">Subscription Plans</div>
+    		</div>
+    		<div class="frame-container">
+      			<div class="menu-1-wrapper">
+        				<div class="menu-1">
+          					<img class="front-view-vegetable-salad-fro-icon" alt="" src="front-view-vegetable-salad-from-boiled-vegetables-mixed-inside-round-plate-dark-background 1.png">
+          					
+          					<div class="green-salad-parent">
+            						<div class="green-salad">Green Salad</div>
+            						<div class="rupee-parent">
+              							<img class="rupee-icon" alt="" src="Rupee.png">
+              							
+              							<b class="b">   199</b>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div class="menu-2-wrapper">
+        				<div class="menu-1">
+          					<img class="front-view-vegetable-salad-fro-icon" alt="" src="top-view-fruity-salad-with-fresh-sliced-fruits 1.png">
+          					
+          					<div class="air-fried-peanut-chaat-parent">
+            						<div class="green-salad">Air Fried Peanut Chaat</div>
+            						<div class="rupee-group">
+              							<img class="rupee-icon" alt="" src="Rupee.png">
+              							
+              							<b class="b">   129</b>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div class="menu-3-wrapper">
+        				<div class="menu-1">
+          					<img class="front-view-vegetable-salad-fro-icon" alt="" src="top-view-fruity-salad-with-fresh-sliced-fruits 1.png">
+          					
+          					<div class="sprouts-bowl-parent">
+            						<div class="green-salad">Sprouts Bowl</div>
+            						<div class="rupee-container">
+              							<img class="rupee-icon" alt="" src="Rupee.png">
+              							
+              							<b class="b2">   54</b>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+    		</div>
+    		<div class="enjoy-the-best-container">
+      			<p class="healthy-tasty">
+        				<span class="discounts-available-on">
+          					<span>ENJOY THE BEST MENU </span>
+        				</span>
+      			</p>
+      			<p class="healthy-tasty">
+        				<span class="discounts-available-on">
+          					<span> </span>
+          					<span class="discounts">DISCOUNTS</span>
+          					<span class="available-on"> AVAILABLE ON </span>
+        				</span>
+        				<b class="zomato-swiggy">ZOMATO / SWIGGY</b>
+      			</p>
+    		</div>
+    		<div class="why-choose-us-for-your-healthy-parent">
+      			<div class="why-choose-us-for-container">
+        				<p class="healthy-tasty">WHY CHOOSE US</p>
+        				<p class="healthy-tasty">
+          					<span>FOR </span>
+          					<span class="discounts">YOUR HEALTHY FOOD</span>
+        				</p>
+      			</div>
+      			<div class="we-continue-to">We continue to consistently choose and maintain the quality of the fruit served, so that it remains fresh and nutritious when you eat it.</div>
+    		</div>
+    		<div class="lady-side">
+      			<b class="skip-the-diet-container">
+        				<p class="healthy-tasty">
+          					<span class="discounts">Skip</span>
+          					<span> The Diet, </span>
+        				</p>
+        				<p class="healthy-tasty">Just Eat Healthy </p>
+        				<p class="healthy-tasty">
+          					<span>With </span>
+          					<span class="discounts">Fresh Leaf</span>
+        				</p>
+      			</b>
+      			<div class="imagine-you-dont-container">
+        				<p class="healthy-tasty">Imagine you don't need a diet because we provide </p>
+        				<p class="healthy-tasty">healthy and delicious food for you!</p>
+      			</div>
+    		</div>
+    		<img class="lady-icon" alt="" src="LADY.png">
+    		
+    		<img class="logo-icon" alt="" src="Logo.png">
+    		
+    		<div class="menu-header">
+				<b class="home">Home</b>
+      			<div class="menu1">Menu</div>
+      			<div class="menu1">Contact</div>
+      			<div class="menu1">Info</div>
+    		</div>
