@@ -102,7 +102,7 @@
     		</div>
     		<div class="menu-2-wrapper">
       			<div class="menu-2">
-        				<img class="top-view-fruity-salad-with-fre-icon" alt="" src="top-view-fruity-salad-with-fresh-sliced-fruits 1.png">
+        				<img class="top-view-fruity-salad-with-fre-icon" alt="" src="top-view-fruity-salad-with-fresh-sliced-fruits 1 (1).png">
         				
         				<div class="frame-div">
           					<div class="rupee-group">
