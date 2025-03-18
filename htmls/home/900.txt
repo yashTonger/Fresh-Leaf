@@ -18,22 +18,22 @@
         				<div class="feature">Get in Touch</div>
         				<div class="address1">
           					<div class="gaur-city-">Gaur City - 2 , GN-West</div>
-          					<img class="communication-location-on" alt="" src="Communication/location_on.png">
+          					<img class="communication-location-on" alt="" src="/photos/Communication/location_on.png">
           					
         				</div>
         				<div class="email1">
           					<div class="gaur-city-">viplavsachan321@gmail.com</div>
-          					<img class="communication-location-on" alt="" src="Communication/email.png">
+          					<img class="communication-location-on" alt="" src="/photos/Communication/email.png">
           					
         				</div>
         				<div class="instagram-2-1-parent">
-          					<img class="instagram-2-1" alt="" src="instagram (2) 1.svg">
+          					<img class="instagram-2-1" alt="" src="/photos/Communication/instagram (2) 1.svg">
           					
           					<div class="the-freshleaf">the_freshleaf</div>
         				</div>
         				<div class="phone2">
           					<div class="gaur-city-">+917291950416</div>
-          					<img class="communication-location-on" alt="" src="Communication/call.png">
+          					<img class="communication-location-on" alt="" src="/photos/Communication/call.png">
           					
         				</div>
       			</div>
@@ -84,19 +84,19 @@
       			</div>
     		</div>
     		<div class="plans">
-      			<img class="plans-child" alt="" src="Rectangle 4603.png">
+      			<img class="plans-child" alt="" src="/photos/plans.png">
       			
       			<div class="subscription-plans">Subscription Plans</div>
     		</div>
     		<div class="frame-container">
-      			<div class="menu-1-wrapper">
+      			<div  class="menu-1-wrapper">
         				<div class="menu-1">
-          					<img class="front-view-vegetable-salad-fro-icon" alt="" src="front-view-vegetable-salad-from-boiled-vegetables-mixed-inside-round-plate-dark-background 1.png">
+          					<img id= "salad" class="front-view-vegetable-salad-fro-icon goToSalad" alt="" src="/photos/front-view-vegetable-salad-from-boiled-vegetables-mixed-inside-round-plate-dark-background 1.png">
           					
           					<div class="green-salad-parent">
             						<div class="green-salad">Green Salad</div>
             						<div class="rupee-parent">
-              							<img class="rupee-icon" alt="" src="Rupee.png">
+              							<img class="rupee-icon" alt="" src="/photos/Rupee.png">
               							
               							<b class="b">   199</b>
             						</div>
@@ -105,12 +105,12 @@
       			</div>
       			<div class="menu-2-wrapper">
         				<div class="menu-1">
-          					<img class="front-view-vegetable-salad-fro-icon" alt="" src="top-view-fruity-salad-with-fresh-sliced-fruits 1 (1).png">
+          					<img class="front-view-vegetable-salad-fro-icon goToPeanut" alt="" src="/photos/peanut.png">
           					
           					<div class="air-fried-peanut-chaat-parent">
             						<div class="green-salad">Air Fried Peanut Chaat</div>
             						<div class="rupee-group">
-              							<img class="rupee-icon" alt="" src="Rupee.png">
+              							<img class="rupee-icon" alt="" src="/photos/Rupee.png">
               							
               							<b class="b">   129</b>
             						</div>
@@ -119,12 +119,12 @@
       			</div>
       			<div class="menu-3-wrapper">
         				<div class="menu-1">
-          					<img class="front-view-vegetable-salad-fro-icon" alt="" src="top-view-fruity-salad-with-fresh-sliced-fruits 1.png">
+          					<img class="front-view-vegetable-salad-fro-icon goToSprourts" alt="" src="/photos/spaurts.png">
           					
           					<div class="sprouts-bowl-parent">
             						<div class="green-salad">Sprouts Bowl</div>
             						<div class="rupee-container">
-              							<img class="rupee-icon" alt="" src="Rupee.png">
+              							<img class="rupee-icon" alt="" src="/photos/Rupee.png">
               							
               							<b class="b2">   54</b>
             						</div>
@@ -174,9 +174,9 @@
         				<p class="healthy-tasty">healthy and delicious food for you!</p>
       			</div>
     		</div>
-    		<img class="lady-icon" alt="" src="LADY.png">
+    		<img class="lady-icon" alt="" src="/photos/LADY.png">
     		
-    		<img class="logo-icon" alt="" src="Logo.png">
+    		<img class="logo-icon" alt="" src="/photos/Logo.png">
     		
     		<div class="menu-header">
 				<b class="home">Home</b>

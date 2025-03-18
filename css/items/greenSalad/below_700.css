@@ -1,0 +1,385 @@
+/* below 700*/
+@media (max-width: 700px){
+.logo-icon {
+  	position: absolute;
+  	top: 21px;
+  	left: calc(50% - 135px);
+  	width: 269px;
+  	height: 94px;
+  	object-fit: cover;
+}
+.green-salad-child {
+  	position: absolute;
+  	width: calc(100% + 695px);
+  	right: -111px;
+  	bottom: 745px;
+  	left: -584px;
+  	background: linear-gradient(180deg, rgba(217, 217, 217, 0), rgba(186, 224, 203, 0.3));
+  	height: 2157px;
+}
+.home {
+  	position: relative;
+  	line-height: 130%;
+  	font-weight: 500;
+}
+.menu {
+  	position: relative;
+  	line-height: 130%;
+  	color: var(--color-darkslategray);
+}
+.menu-header {
+  	position: absolute;
+  	top: 138px;
+  	left: calc(50% - 168px);
+  	width: 335px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: var(--padding-3xs);
+  	box-sizing: border-box;
+  	gap: 26px;
+  	font-size: var(--font-size-base);
+  	color: var(--color);
+}
+.green-salad1 {
+  	position: absolute;
+  	top: 257px;
+  	left: calc(50% - 146px);
+  	font-size: 48px;
+  	letter-spacing: -0.02em;
+  	line-height: 130%;
+}
+.peanut {
+	position: absolute;
+	top: 257px;
+	left: calc(50% - 150px);
+	font-size: 26px;
+	letter-spacing: -0.02em;
+	line-height: 130%;
+	text-align: center;
+}
+
+.front-view-vegetable-salad-fro-icon {
+  	position: absolute;
+  	top: 319px;
+  	left: calc(50% - 203.13px);
+  	border-radius: 50px;
+  	width: 407.3px;
+  	height: 404px;
+  	object-fit: contain;
+}
+.a-green-salad {
+  	position: absolute;
+  	height: 5.05%;
+  	width: 88.13%;
+  	top: 600px;
+	left: 50%;
+	transform: translateX(-50%);
+  	letter-spacing: -0.02em;
+  	line-height: 180%;
+  	font-weight: 600;
+  	color: #585858;
+  	text-align: center;
+  	display: inline-block;
+	font-size: var(--font-size-5xl);
+}
+.group-child {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 128px);
+  	border-radius: var(--br-11xl);
+  	background-color: var(--color-paleturquoise);
+  	width: 256px;
+  	height: 339px;
+}
+.cabbagelettuce {
+  	margin-bottom: 0px;
+}
+.cabbagelettuce-capsicum-broco {
+  	margin: 0;
+  	font-family: inherit;
+  	font-size: inherit;
+  	padding-left: var(--padding-13xl);
+}
+.cabbagelettuce-capsicum-broco-container {
+  	position: absolute;
+  	top: 147.24px;
+  	left: calc(50% - 121.28px);
+  	letter-spacing: -0.02em;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 242px;
+  	height: 174px;
+}
+.group-item {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 128px);
+  	border-radius: var(--br-11xl);
+  	background-color: var(--color-darkslategray);
+  	width: 256px;
+  	height: 122.6px;
+}
+.ingredients {
+  	position: absolute;
+  	top: 26.02px;
+  	left: calc(50% - 101.11px);
+  	font-size: var(--font-size-17xl);
+  	letter-spacing: -0.02em;
+  	line-height: 180%;
+  	font-weight: 600;
+  	color: var(--color-white);
+  	display: inline-block;
+  	width: 202.2px;
+  	height: 71.2px;
+}
+.rectangle-parent {
+  	position: absolute;
+  	top: 960px;
+  	left: calc(50% - 128px);
+  	width: 256px;
+  	height: 339px;
+	font-size: var(--font-size-5xl);
+}
+.group-inner {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 128px);
+  	border-radius: var(--br-11xl);
+  	background-color: var(--color-paleturquoise);
+  	width: 256px;
+  	height: 240px;
+}
+.protein-10gm-container {
+  	position: absolute;
+  	top: 118.35px;
+  	left: calc(50% - 118.48px);
+  	letter-spacing: -0.02em;
+  	line-height: 150%;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 246.5px;
+  	height: 114.5px;
+}
+.group-item1 {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 128px);
+  	border-radius: var(--br-11xl);
+  	background-color: var(--color-darkslategray);
+  	width: 256px;
+  	height: 98.5px;
+}
+.nutritions {
+  	position: absolute;
+  	top: 20.92px;
+  	left: calc(50% - 88.79px);
+  	font-size: var(--font-size-17xl);
+  	letter-spacing: -0.02em;
+  	line-height: 180%;
+  	font-weight: 600;
+  	color: var(--color-white);
+  	display: inline-block;
+  	width: 177.6px;
+  	height: 56.7px;
+}
+.rectangle-group {
+  	position: absolute;
+  	top: 1351px;
+  	left: calc(50% - 128px);
+  	width: 256px;
+  	height: 240px;
+	font-size: var(--font-size-5xl);
+}
+.fresh-leaf {
+  	position: relative;
+}
+.healthy-tasty {
+  	margin: 0;
+}
+.healthy-tasty-container {
+  	position: relative;
+  	font-size: var(--font-size-base);
+  	line-height: 160%;
+  	font-family: var(--font-poppins);
+  	color: var(--color);
+  	text-align: center;
+}
+.fresh-leaf-parent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: var(--gap-lgi);
+}
+.copyright-fresh-leaf {
+  	position: relative;
+  	font-size: var(--font-size-base);
+  	line-height: 150%;
+  	font-family: var(--font-poppins);
+  	color: var(--b2b2b);
+}
+.section-01 {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: var(--gap-lgi);
+  	font-size: var(--font-size-5xl);
+  	color: #000;
+  	font-family: var(--font-roboto);
+}
+.feature {
+  	position: relative;
+  	line-height: 22px;
+  	font-weight: 600;
+  	color: var(--fb9333);
+}
+.address {
+  	width: 45px;
+  	position: relative;
+  	height: 24px;
+}
+.promo {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	line-height: 150%;
+}
+.email {
+  	width: 53px;
+  	position: relative;
+  	height: 24px;
+}
+.phone {
+  	width: 66px;
+  	position: relative;
+  	height: 24px;
+}
+.phone1 {
+  	width: 71px;
+  	position: relative;
+  	height: 24px;
+}
+.section-4 {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 25px;
+}
+.communication-location-on {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 24px;
+  	height: 24px;
+  	object-fit: cover;
+}
+.address1 {
+  	width: 226px;
+  	position: relative;
+  	height: 25px;
+}
+.viplavsachan321gmailcom {
+  	position: absolute;
+  	top: 1px;
+  	left: 40px;
+  	line-height: 150%;
+}
+.email1 {
+  	width: 274px;
+  	position: relative;
+  	height: 25px;
+}
+.phone2 {
+  	width: 155px;
+  	position: relative;
+  	height: 25px;
+}
+.section-02 {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 23px;
+}
+.section-03-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 24.5px;
+  	height: 24px;
+}
+.section-03 {
+  	width: 24.5px;
+  	position: relative;
+  	height: 24px;
+}
+.footer {
+  	position: absolute;
+  	top: 1827px;
+  	left: calc(50% - 725px);
+  	width: 1588px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: var(--padding-31xl) 135px var(--padding-31xl) 0px;
+  	box-sizing: border-box;
+  	gap: 57px;
+  	font-size: var(--font-size-base);
+  	color: var(--color);
+}
+.lineUP {
+  	position: absolute;
+  	top: 190px;
+  	left: -10px;
+  	max-height: 100%;
+  	width: 717px;
+}
+.lineDown {
+	position: absolute;
+	top: 1830px;
+	left: -10px;
+	max-height: 100%;
+	width: 717px;
+}
+.buy-now {
+  	position: relative;
+  	letter-spacing: -0.02em;
+  	line-height: 140%;
+  	font-weight: 800;
+}
+.buy-now-wrapper {
+  	position: absolute;
+  	top: 1665px;
+  	left: calc(50% - 155px);
+  	border-radius: 100px;
+  	background-color: var(--color-darkslategray);
+  	width: 309px;
+  	height: 81px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: var(--padding-3xs) 16px;
+  	box-sizing: border-box;
+  	text-align: center;
+  	font-size: 32px;
+  	color: #ffbe00;
+}
+.green-salad {
+  	width: 100%;
+  	position: relative;
+  	background-color: var(--color-white);
+  	height: 2574px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: var(--font-size-5xl);
+  	color: var(--color-darkslategray);
+  	font-family: var(--font-poppins);
+}
+}

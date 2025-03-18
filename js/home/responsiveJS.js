@@ -1,3 +1,4 @@
+
 // Define media queries for the breakpoints
 const mediaQuery900 = window.matchMedia('(max-width: 900px)');
 const mediaQuery700 = window.matchMedia('(max-width: 700px)');
@@ -8,7 +9,7 @@ function updateContent() {
   // Check for 700px or less first
   if (mediaQuery700.matches) {
 
-    fetch('700.txt')
+    fetch('htmls/home/700.txt')
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -26,7 +27,7 @@ function updateContent() {
   } 
   // Then check for screens between 701px and 900px
   else if (mediaQuery900.matches) {
-    fetch('900.txt')
+    fetch('htmls/home/900.txt')
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -44,7 +45,7 @@ function updateContent() {
   } 
   // Otherwise, screens above 900px
   else {
-    fetch('1280.txt')
+    fetch('htmls/home/1280.txt')
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -63,8 +64,15 @@ function updateContent() {
 }
 
 // Add listeners to update when the media query status changes
-mediaQuery900.addEventListener('change', updateContent);
-mediaQuery700.addEventListener('change', updateContent);
+mediaQuery900.addEventListener('change', () => {
+  updateContent();
+ 
+});
+mediaQuery700.addEventListener('change', () => {
+  updateContent();
+ 
+});
+
 
 // Initial update on page load
 updateContent();
