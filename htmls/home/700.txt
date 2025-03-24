@@ -2,16 +2,16 @@
       			<div class="section-4">
         				<div class="feature">Feature</div>
         				<div class="address">
-          					<div class="menu">Menu</div>
+          					<div id="menuLink" class="menu">Menu</div>
         				</div>
         				<div class="email">
           					<div class="menu">Promo</div>
         				</div>
         				<div class="phone">
-          					<div class="menu">Contact</div>
+          					<div class="menu">Book Now</div>
         				</div>
         				<div class="phone1">
-          					<div class="menu">About us</div>
+          					<a href="/htmls/aboutUs/about.html" class="menu hover">About Us</a>
         				</div>
       			</div>
       			<div class="section-02">
@@ -61,7 +61,7 @@
         				<div class="frame-parent">
           					<div class="frame-group">
             						<div class="enter-your-email-address-wrapper">
-              							<div class="enter-your-email">Enter your email address</div>
+              							<div class="enter-your-email">Phone no.</div>
             						</div>
             						<div class="submit-wrapper">
               							<div class="submit">Submit</div>
@@ -70,7 +70,7 @@
           					<div class="we-recommended-you-to-subscrib-parent">
             						<div class="we-recommended-you-container">
               							<p class="healthy-tasty">We recommended you to subscribe to our promo program, </p>
-              							<p class="healthy-tasty">drop your email below to get daily update about us</p>
+              							<p class="healthy-tasty">drop your Phone no. below to get daily update about us</p>
             						</div>
             						<div class="our-subscribe-parent">
               							<div class="our-subscribe">Our Subscribe</div>
@@ -86,7 +86,7 @@
     		<div class="plans">
       			<img class="plans-child" alt="" src="/photos/plans.png">
       			
-      			<div class="subscription-plans">Subscription Plans</div>
+      			<div id="plan" class="subscription-plans">Subscription Plans</div>
     		</div>
     		<div class="menu-1-parent">
       			<img id= "salad" class="menu-1-icon goToSalad" alt="" src="/photos/front-view-vegetable-salad-from-boiled-vegetables-mixed-inside-round-plate-dark-background 1.png">
@@ -128,7 +128,7 @@
         				</div>
       			</div>
     		</div>
-    		<div class="enjoy-the-best-container">
+    		<div id="menu" class="enjoy-the-best-container">
       			<p class="healthy-tasty">
         				<span class="discounts-available-on">
           					<span>ENJOY THE BEST MENU </span>
@@ -172,11 +172,11 @@
     		</div>
     		<img class="lady-icon" alt="" src="/photos/LADY.png">
     		
-    		<img class="logo-icon" alt="" src="/photos/Logo.png">
+    		<a href="/index.html"><img class="logo-icon" alt="" src="/photos/Logo.png"></a>
     		
     		<div class="menu-header">
-				<b class="home">Home</b>
-      			<div class="menu1">Menu</div>
-      			<div class="menu1">Contact</div>
-      			<div class="menu1">Info</div>
+				<a href="/index.html" class="home hover">Home</a>
+      			<div id="menuLink" class="menu1">Menu</div>
+      			<div class="menu1">Book Now</div>
+      			<div id="planLink" class="menu1">Plans</div>
     		</div>

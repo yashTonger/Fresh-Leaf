@@ -3,10 +3,6 @@ body {
     line-height: normal;
 }
 
-a {
-  text-decoration: none; /* Removes the underline */
-  color: inherit; /* Inherits the color from the parent element */
-}
 
 :root {
     
@@ -15,28 +11,28 @@ a {
     --font-roboto: Roboto;
     
     /* font sizes */
+    --font-size-2xs: 11px;
     --font-size-base: 16px;
-    --font-size-21xl: 40px;
-    --font-size-45xl: 64px;
     --font-size-5xl: 24px;
+    --font-size-11xl: 30px;
     --font-size-17xl: 36px;
     
     /* Colors */
-    --color-darkslategray: #38664c;
-    --color-paleturquoise: #bae0cb;
+    --color-darkslategray-100: #38664c;
+    --color-darkslategray-200: #434343;
+    --color-gainsboro: #d9d9d9;
+    --color-orange: #ffbe00;
     --color-white: #fff;
-      	
-  	/* Gaps */
-  	--gap-lgi: 19px;
-
+    --color-whitesmoke: #eaeaea;
+    
     /* Paddings */
     --padding-3xs: 10px;
-    --padding-13xl: 32px;
-    --padding-34xl: 53px;
+    --padding-base: 16px;
     --padding-31xl: 50px;
     
     /* Border radiuses */
-    --br-11xl: 30px;
+    --br-35xl: 54px;
+    --br-81xl: 100px;
     
     /* Figma Variables */
     

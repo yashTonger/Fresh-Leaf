@@ -3,10 +3,6 @@ body {
     line-height: normal;
 }
 
-a {
-  text-decoration: none; /* Removes the underline */
-  color: inherit; /* Inherits the color from the parent element */
-}
 
 :root {
     
@@ -16,27 +12,13 @@ a {
     
     /* font sizes */
     --font-size-base: 16px;
-    --font-size-21xl: 40px;
-    --font-size-45xl: 64px;
     --font-size-5xl: 24px;
-    --font-size-17xl: 36px;
     
     /* Colors */
     --color-darkslategray: #38664c;
-    --color-paleturquoise: #bae0cb;
-    --color-white: #fff;
-      	
-  	/* Gaps */
-  	--gap-lgi: 19px;
-
-    /* Paddings */
-    --padding-3xs: 10px;
-    --padding-13xl: 32px;
-    --padding-34xl: 53px;
-    --padding-31xl: 50px;
     
-    /* Border radiuses */
-    --br-11xl: 30px;
+    /* Paddings */
+    --padding-31xl: 50px;
     
     /* Figma Variables */
     

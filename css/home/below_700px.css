@@ -186,11 +186,12 @@
         position: absolute;
         margin: 0 !important;
         top: 11.5px;
-        left: -13.97px;
+        left: -50px;
         letter-spacing: -0.02em;
         line-height: 140%;
         display: inline-block;
-        opacity: 0.7;
+        opacity: 0.5;
+        color: black;
         z-index: 0;
     }
     .enter-your-email-address-wrapper {
@@ -359,7 +360,7 @@
         top: 2367px;
         left: calc(50% - 286.1px);
         width: 571.2px;
-        height: 752px;
+        /*height: 752px;*/
         display: flex;
         flex-direction: column;
         align-items: flex-start;
