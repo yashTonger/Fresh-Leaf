@@ -62,11 +62,11 @@
 
 .front-view-vegetable-salad-fro-icon {
   	position: absolute;
-  	top: 319px;
-  	left: calc(50% - 203.13px);
+  	top: 359px;
+    left: calc(50% - 140px);
   	border-radius: 50px;
-  	width: 407.3px;
-  	height: 404px;
+	width: calc(407.3px * 0.7);
+	height: calc(404px * 0.7);
   	object-fit: contain;
 }
 .a-green-salad {
@@ -381,5 +381,27 @@
   	font-size: var(--font-size-5xl);
   	color: var(--color-darkslategray);
   	font-family: var(--font-poppins);
+}
+.arrowLeft {
+   height: 50px;
+   width: 50px;
+    top: 435px;
+    left: calc(50% - 150.5px);
+}
+
+.arrowRight {
+	height: 50px;
+	width: 50px;
+    top: 435px;
+    left: calc(50% + 105.5px);
+   
+}
+
+.mainImageClick {
+position: absolute;
+    top: 380px;
+    left: calc(50% - 85.5px);
+    width: 178px;
+    height: 173px;
 }
 }
