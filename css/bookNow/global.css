@@ -3,6 +3,10 @@ body {
     line-height: normal;
 }
 
+a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Inherits the color from the parent element */
+  }
 
 :root {
     

@@ -8,6 +8,15 @@ a {
     text-decoration: none; /* Removes the underline */
     color: inherit; /* Inherits the color from the parent element */
   }
+  input {
+ 
+    border: none;
+    background: transparent;
+    outline: none;
+    /* Optional: adjust padding or font settings as needed */
+    padding: 0 10px;
+    font-size: 16px;
+  }
 
 @media  (min-width: 900px){
 :root {

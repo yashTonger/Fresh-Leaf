@@ -1,42 +1,47 @@
-	<div class="footer">
+			<div class="footer">
       			<div class="section-4">
         				<div class="feature">Feature</div>
         				<div class="address">
           					<div id="menuLink" class="menu">Menu</div>
         				</div>
         				<div class="email">
-          					<div class="menu">Promo</div>
+          					<div id="planLink" class="menu">Plans</div>
         				</div>
         				<div class="phone">
-          					<div class="menu">Book Now</div>
+							<a href="/htmls/bookNow/bookNow.html" class="menu">Pricing</a>
         				</div>
         				<div class="phone1">
           					<a href="/htmls/aboutUs/about.html" class="menu hover">About Us</a>
         				</div>
       			</div>
       			<div class="section-02">
-        				<div class="feature">Get in Touch</div>
-        				<div class="address1">
-          					<div class="gaur-city-">Gaur City - 2 , GN-West</div>
-          					<img class="communication-location-on" alt="" src="/photos/Communication/location_on.png">
-          					
-        				</div>
-        				<div class="email1">
-          					<div class="gaur-city-">viplavsachan321@gmail.com</div>
-          					<img class="communication-location-on" alt="" src="/photos/Communication/email.png">
-          					
-        				</div>
-        				<div class="instagram-2-1-parent">
-          					<img class="instagram-2-1" alt="" src="/photos/Communication/instagram (2) 1.svg">
-          					
-          					<div class="the-freshleaf">the_freshleaf</div>
-        				</div>
-        				<div class="phone2">
-          					<div class="gaur-city-">+917291950416</div>
-          					<img class="communication-location-on" alt="" src="/photos/Communication/call.png">
-          					
-        				</div>
-      			</div>
+						<div class="feature">Get in Touch</div>
+						<div class="address1">
+							<a href="https://maps.app.goo.gl/nJqEvVy1WWNDcx7JA">
+							<img class="communication-location-on" alt="" src="/photos/Communication/location_on.png">
+							<div class="gaur-city- hover">Gaur City - 2 , GN-West</div>
+							</a>
+						</div>
+						<div class="email1">
+							<a href="mailto:viplavsachan321@gmail.com">
+							<img class="communication-location-on" alt="" src="/photos/Communication/email.png">
+							<div class="gaur-city- hover">viplavsachan321@gmail.com</div>
+							</a>
+						</div>
+						<div class="instagram-2-1-parent">
+							<a href="https://www.instagram.com/the_freshleaf/">
+							<img class="instagram-2-1" alt="" src="/photos/Communication/instagram (2) 1.svg">
+							<div class="the-freshleaf hover">the_freshleaf</div>
+							</a>
+						</div>
+						<div class="phone2">
+							<a href="tel:+917291950416">
+							<img class="communication-location-on" alt="" src="/photos/Communication/call.png">
+							<div class="gaur-city- hover">+917291950416</div>
+							</a>
+						</div>
+					</div>
+
       			<div class="section-03">
         				<div class="section-03-child">
         				</div>
@@ -61,8 +66,9 @@
         				<div class="frame-parent">
           					<div class="frame-group">
             						<div class="enter-your-email-address-wrapper">
-              							<div class="enter-your-email">Phone no.</div>
-            						</div>
+  										<input type="tel" class="enter-your-email" placeholder="Phone number" />
+									</div>
+
             						<div class="submit-wrapper">
               							<div class="submit">Submit</div>
             						</div>
@@ -176,7 +182,7 @@
     		
     		<div class="menu-header">
 				<a href="/index.html" class="home hover">Home</a>
-      			<div id="menuLink" class="menu1">Menu</div>
-      			<div class="menu1">Book Now</div>
-      			<div id="planLink" class="menu1">Plans</div>
+				<a id="menuLink" class="menu1 hover">Menu</a>
+				<a href="/htmls/bookNow/bookNow.html" class="menu1 hover">Pricing</a>
+				<a href="/htmls/aboutUs/about.html" class="menu1 hover">About Us</a>
     		</div>

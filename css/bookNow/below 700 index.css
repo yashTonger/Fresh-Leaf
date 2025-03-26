@@ -198,7 +198,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    gap: 23px;
+    gap: 15px;
 }
 .section-03-child {
     position: absolute;
