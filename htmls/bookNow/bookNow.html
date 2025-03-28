@@ -22,20 +22,26 @@
     		
     		<div class="gradient">
     		</div>
-    		<div class="pay-on-delivery-frame hover">
+    		<div id="COD" class="pay-on-delivery-frame hover">
       			<i class="pay-on-delivery">PAY ON DELIVERY</i>
     		</div>
-    		<div class="pay-now-frame hover">
+    		<div id="paynow" class="pay-now-frame hover">
       			<i class="pay-on-delivery">PAY NOW</i>
     		</div>
+
+			<!-- header -->
     		<div class="menu-header">
 				  <a href="/index.html" class="home hover">Home</a>
 				  <a href="/htmls/items/greenSalad.html" class="home hover">Menu</a>
 				  <a href="/htmls/bookNow/bookNow.html" class="menu hover">Pricing</a>
 				  <a href="/htmls/aboutUs/about.html" class="home hover">About Us</a>
     		</div>
+
     		<b class="choose-yours">Plans Offered</b>
 			<img class="plans-pic-icon" alt="" src="/photos/plans.png">
+
+
+			<!-- footer -->
 			<div class="footer">
 				<div class="section-01">
 					<div class="fresh-leaf-parent">
@@ -74,10 +80,10 @@
 					</a>
 				  </div>
 				  <div class="email1">
-					<a href="mailto:viplavsachan321@gmail.com">
-					  <div class="viplavsachan321gmailcom hover">viplavsachan321@gmail.com</div>
+					<a href="mailto:contactfreshleaf@gmail.com">
+					  <div class="viplavsachan321gmailcom hover">contactfreshleaf@gmail.com</div>
 					</a>
-					<a href="mailto:viplavsachan321@gmail.com">
+					<a href="mailto:contactfreshleaf@gmail.com">
 					  <img class="communication-location-on hover" alt="Email" src="/photos/Communication/email.png">
 					</a>
 				  </div>
@@ -105,15 +111,17 @@
 				  </div>
 				</div>
 			  </div>
+
     		<img class="buy-now-page-child" alt="" src="/photos/vector/Vector 7.svg">
     		
+			<!-- form -->
     		<div class="form">
 				<div class="choose-plan">Choose Plan :</div>
 
 				<!-- classic button -->
 				<div class="ellipse-div">
 				</div>
-				<div class="form-child5 indicator">
+				<div class="form-child5 indicator plan-button" data-plan="Classic">
 				</div>
       			<div class="form-item hover plan-button" data-plan="Classic">
 					<b class="classic">Classic</b>
@@ -123,7 +131,7 @@
 				<!-- premiun button -->
 				<div class="form-child3">
 				</div>
-				<div class="form-child6 indicator">
+				<div class="form-child6 indicator plan-button" data-plan="Premium">
 				</div>
 				<div class="form-child hover plan-button" data-plan="Premium">
 					<b class="premium">Premium</b>
@@ -134,7 +142,7 @@
 				 
 				<div class="form-child4">
 				</div>
-				<div class="form-child7 indicator">
+				<div class="form-child7 indicator plan-button" data-plan="Deluxe">
 				</div>
       			<div class="form-inner hover plan-button" data-plan="Deluxe">
 					  <b class="deluxe">Deluxe</b>
@@ -161,41 +169,22 @@
       			
       				
     		</div>
-			<!-- <form class="form" action="/submit" method="POST">
-				<div class="form-child">
-				  <label for="mobile" class="mobile">Mobile:</label>
-				  <input type="text" id="mobile" name="mobile" class="form-input" placeholder="Enter your mobile number" required>
-				</div>
-			  
-				<div class="form-child">
-				  <label for="time" class="time">Time:</label>
-				  <input type="time" id="time" name="time" class="form-input" required>
-				</div>
-			  
-				<div class="form-child">
-				  <label for="plan" class="choose-plan">Choose Plan:</label>
-				  <select id="plan" name="plan" class="form-select" required>
-					<option value="classic" class="classic">Classic</option>
-					<option value="premium" class="premium">Premium</option>
-					<option value="deluxe" class="deluxe">Deluxe</option>
-				  </select>
-				</div>
-			  
-				<div class="form-child">
-				  <label for="address" class="address2">Address:</label>
-				  <textarea id="address" name="address" class="form-textarea" placeholder="Enter your address" required></textarea>
-				</div>
-			  
-				<div class="form-child">
-				  <button type="submit" class="form-button">Submit</button>
-				</div>
-			  </form> -->
+			
     		
     		
   	</div>
   	
   	
-  	
+	  <script type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+	  </script>
+		<script type="text/javascript">
+			(function(){
+				emailjs.init({
+				publicKey: "Ppa8zZKLIRDRaEk_S",
+				});
+			})();
+		</script>
 	<script src="/js/bookNow/booknow.js"></script>
 	<script src="/js/hover.js"></script>
 </body>

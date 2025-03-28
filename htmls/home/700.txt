@@ -23,9 +23,9 @@
 							</a>
 						</div>
 						<div class="email1">
-							<a href="mailto:viplavsachan321@gmail.com">
+							<a href="mailto:contactfreshleaf@gmail.com">
 							<img class="communication-location-on" alt="" src="/photos/Communication/email.png">
-							<div class="gaur-city- hover">viplavsachan321@gmail.com</div>
+							<div class="gaur-city- hover">contactfreshleaf@gmail.com</div>
 							</a>
 						</div>
 						<div class="instagram-2-1-parent">
