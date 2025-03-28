@@ -69,8 +69,8 @@
   										<input type="tel" class="enter-your-email" placeholder="Phone number" />
 									</div>
 
-            						<div class="submit-wrapper">
-              							<div class="submit">Submit</div>
+            						<div class="submit-wrapper sub">
+              							<div class="submit sub">Subscribe</div>
             						</div>
           					</div>
           					<div class="we-recommended-you-to-subscrib-parent">
@@ -91,6 +91,7 @@
     		</div>
     		<div class="plans">
       			<img class="plans-child" alt="" src="/photos/plans.png">
+				<div class="plans-child goToPlan" style="height: 200px; top: 240px;"></div>
       			
       			<div id="plan" class="subscription-plans">Subscription Plans</div>
     		</div>

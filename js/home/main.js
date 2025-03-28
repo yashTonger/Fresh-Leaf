@@ -1,6 +1,14 @@
 // click 
 document.getElementById('content').addEventListener('click', event => {
     
+    //submit button
+    if (event.target.classList.contains('sub')) {
+      SubmitEvent();
+    }
+    if (event.target.classList.contains('goToPlan')) {
+      goTo('htmls/bookNow/bookNow.html'); 
+    }
+
     //salad page
     if (event.target.classList.contains('goToSalad')) {
       goTo('htmls/items/greenSalad.html'); 
@@ -43,6 +51,32 @@ document.getElementById('content').addEventListener('click', event => {
 
 
 //functions
+    function SubmitEvent() {
+              // Get the email value and remove any extra spaces
+        var num = document.querySelector('.enter-your-email').value.trim();
+
+        // If the email field is not empty, send the email via EmailJS
+        if (num !== "") {
+          var templateParams = {
+            number: num
+            // You can add other parameters here if needed
+          };
+          
+          emailjs.send('service_56mbahv', 'template_95xcx3a', templateParams)
+            .then(function(response) {
+              console.log('SUCCESS!', response.status, response.text);
+            }, function(error) {
+              console.error('FAILED...', error);
+            });
+        }
+        
+        // Redirect the user to the bookNow page
+        setTimeout(() => {
+          window.location.href = "htmls/bookNow/bookNow.html";
+        }, 1200); // Wait for 1 second (1000 milliseconds) before executing
+        
+    }
+
     function goTo(url) {
       window.location.href = url;
     }

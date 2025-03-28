@@ -5,11 +5,11 @@ let selectedPlan = null;
 // Attach click event listeners to both buttons
   // Attach event listeners to both buttons
 document.getElementById("COD").addEventListener("click", function() {
-    sendAndRedirect("htmls/thank/ThankYou.html");////////////////////////////
+    sendAndRedirect("/htmls/thank/ThankYou.html#tq");////////////////////////////
   });
   
   document.getElementById("paynow").addEventListener("click", function() {
-    sendAndRedirect("htmls/thank/qr.html");/////////////////////////////
+    sendAndRedirect("/htmls/thank/qr.html#tq");/////////////////////////////
   });
   
   function sendAndRedirect(redirectUrl) {
@@ -55,7 +55,9 @@ document.getElementById("COD").addEventListener("click", function() {
         .then(function(response) {
           console.log("Email sent successfully!", response.status, response.text);
           // On successful email sending, redirect the user
-          window.location.href = redirectUrl;
+            setTimeout(() => {
+              window.location.href = redirectUrl;
+            }, 500);
         }, function(error) {
           console.error("Error sending email:", error);
           alert("Error sending email.");
@@ -104,4 +106,9 @@ document.querySelectorAll('.plan-button').forEach(div => {
 });
 
 
+document.getElementById("plans").addEventListener("click", function() {
+  document.getElementById("choose").scrollIntoView({
+    behavior: "smooth"
+  });
+});
 

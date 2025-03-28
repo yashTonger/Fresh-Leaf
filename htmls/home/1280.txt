@@ -88,8 +88,8 @@
             						<div class="enter-your-email-address-wrapper">
   										<input type="tel" class="enter-your-email" placeholder="Enter your phone number" />
 									</div>
-            						<div class="subscribe-wrapper">
-              							<div class="subscribe2">Subscribe</div>
+            						<div class="subscribe-wrapper sub">
+              							<div class="subscribe2 hover sub">Subscribe</div>
             						</div>
           					</div>
         				</div>
@@ -97,6 +97,7 @@
     		</div>
     		<div class="plans">
       			<img class="plans-child " alt="" src="/photos/plans.png">
+				<div class="plans-child goToPlan" style="height: 500px; top: 100px;"></div>
       			
       			<div id="plan" class="subscription-plans">Subscription Plans</div>
     		</div>
