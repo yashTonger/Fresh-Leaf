@@ -217,4 +217,10 @@
     color: var(--color);
     font-family: var(--font-poppins);
 }
+
+.qr-code {
+    height: auto;
+    width: 60%;
+}
+
 }

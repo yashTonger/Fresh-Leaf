@@ -1,7 +1,7 @@
 //hover functions
     // Function to increase the size of the element
-    function increaseSize(element) {
-        element.style.transform = 'scale(1.15)'; // Increase size by 20%
+    function increaseSize(element,size) {
+        element.style.transform = `scale(${size})`; // Increase size by the given value
         element.style.transition = 'transform 0.3s ease'; // Smooth transition
       }
   
@@ -14,7 +14,18 @@
     // Add a hover event listener to elements with the 'hover' class
     document.querySelectorAll('.hover').forEach(element => {
         element.addEventListener('pointerenter', () => {
-          increaseSize(element);
+          increaseSize(element,1.15);
+        });
+      
+        element.addEventListener('pointerleave', () => {
+          resetSize(element);
+        });
+      });
+
+      //less
+      document.querySelectorAll('.hover2').forEach(element => {
+        element.addEventListener('pointerenter', () => {
+          increaseSize(element,1.05);
         });
       
         element.addEventListener('pointerleave', () => {

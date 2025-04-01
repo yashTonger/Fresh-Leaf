@@ -38,12 +38,18 @@ document.getElementById('content').addEventListener('click', event => {
       if (event.target.classList.contains('hover')) {
         increaseSize(event.target); // Increase size on hover
       }
+      if (event.target.classList.contains('hover2')) {
+        increase(event.target); // Increase size on hover
+      }
     });
 
     document.getElementById('content').addEventListener('mouseout', event => {
 
       // Check if the element losing hover has the 'hover' class
       if (event.target.classList.contains('hover')) {
+        resetSize(event.target); // Reset size when mouse leaves
+      }      
+      if (event.target.classList.contains('hover2')) {
         resetSize(event.target); // Reset size when mouse leaves
       }      
     });
@@ -84,6 +90,10 @@ document.getElementById('content').addEventListener('click', event => {
     // Function to increase the size of the element
     function increaseSize(element) {
       element.style.transform = 'scale(1.2)'; // Increase size by 20%
+      element.style.transition = 'transform 0.3s ease'; // Smooth transition
+    }
+    function increase(element) {
+      element.style.transform = 'scale(1.05)'; // Increase size by 20%
       element.style.transition = 'transform 0.3s ease'; // Smooth transition
     }
 

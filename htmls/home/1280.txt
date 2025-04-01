@@ -21,7 +21,7 @@
           					<img class="communication-location-on" alt="" src="/photos/Communication/location_on.png">
 							</a>
 						<a href="https://maps.app.goo.gl/nJqEvVy1WWNDcx7JA">
-          					<div class="gaur-city- hover">Gaur City - 2 , GN-West</div>
+          					<div class="gaur-city- hover2">Gaur City - 2 , GN-West</div>
           					</a>
         				</div>
         				<div class="email1">
@@ -29,7 +29,7 @@
           					<img class="communication-location-on" alt="" src="/photos/Communication/email.png">
 							</a>
 							<a href="mailto:contactfreshleaf@gmail.com">
-          					<div class="gaur-city- hover">contactfreshleaf@gmail.com</div>
+          					<div class="gaur-city- hover2">contactfreshleaf@gmail.com</div>
           					</a>
         				</div>
         				<div class="instagram-2-1-parent">
@@ -37,7 +37,7 @@
           					<img class="instagram-2-1" alt="" src="/photos/Communication/instagram (2) 1.svg">
           					</a>
 							<a href="https://www.instagram.com/the_freshleaf/">
-          					<div class="the-freshleaf hover">the_freshleaf</div>
+          					<div class="the-freshleaf hover2">the_freshleaf</div>
 							</a>
         				</div>
         				<div class="phone2">
@@ -45,7 +45,7 @@
           					<img class="communication-location-on" alt="" src="/photos/Communication/call.png">
 							</a>
 							<a href="tel:+917291950416">
-          					<div class="gaur-city- hover">+917291950416</div>
+          					<div class="gaur-city- hover2">+917291950416</div>
           					</a>
         				</div>
       			</div>
@@ -168,12 +168,12 @@
           					<span class="discounts">YOUR HEALTHY FOOD</span>
         				</p>
       			</div>
-      			<div class="we-continue-to">We continue to consistently choose and maintain the quality of the fruit served, so that it remains fresh and nutritious when you eat it.</div>
+      			<div class="we-continue-to">We continue to consistently choose and maintain the quality of the food served, so that it remains fresh and nutritious when you eat it.</div>
     		</div>
     		<div class="lady-side">
       			<b class="skip-the-diet-container">
         				<p class="healthy-tasty">
-          					<span class="discounts">Skip</span>
+          					<span class="discounts">Start</span>
           					<span> The Diet, </span>
         				</p>
         				<p class="healthy-tasty">Just Eat Healthy </p>
