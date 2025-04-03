@@ -5,11 +5,11 @@ let selectedPlan = null;
 // Attach click event listeners to both buttons
   // Attach event listeners to both buttons
 document.getElementById("COD").addEventListener("click", function() {
-    sendAndRedirect("/htmls/thank/ThankYou.html#tq");////////////////////////////
+    sendAndRedirect("/htmls/thank/ThankYou.html");////////////////////////////
   });
   
   document.getElementById("paynow").addEventListener("click", function() {
-    sendAndRedirect("/htmls/thank/qr.html#tq");/////////////////////////////
+    sendAndRedirect("/htmls/thank/qr.html");/////////////////////////////
   });
   
   function sendAndRedirect(redirectUrl) {
